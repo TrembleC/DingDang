@@ -1,0 +1,3408 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "微软雅黑", 宋体, Arial, sans-serif;
+    font-style: normal;
+}
+
+.wrapper {
+    margin: 0px auto;
+    height: auto;
+    width: 1200px;
+    min-width: 308px;
+}
+
+.top {
+    margin: 0px auto;
+    width: 100%;
+    height: auto;
+    float: left;
+
+}
+
+.logo {
+    margin: 5px;;
+    width: 150px;
+    height: 65px;
+    float: left;
+}
+
+.logo img {
+    width: 150px;
+    height: 65px;
+    float: left;
+}
+
+.hidden_nav {
+    display: none;
+}
+
+nav {
+    margin: 12px 20px;
+    width: 484px;
+    height: 45px;
+    float: left;
+}
+
+nav ul {
+    width: auto;
+    height: auto;
+}
+
+nav li {
+    display: inline-block;
+    height: 45px;
+    width: 160px;
+    float: left;
+    text-align: center;
+    background-color: #f17f13;
+    border-right: 1px solid #aa6f35;
+}
+
+nav ul li:first-child {
+    border-top-left-radius: 5px;
+}
+
+nav ul li:last-child {
+    border-top-right-radius: 5px;
+    border-right: none;
+}
+
+nav li * {
+    color: #ffffff;;
+    font-size: 1.18em;
+    display: inline-block;
+    line-height: 45px;
+}
+
+nav ul li a {
+    height: 45px;
+    line-height: 45px;
+
+}
+
+.menu {
+    margin: 20px 0px;
+    width: auto;
+    height: 35px;
+    float: right;
+}
+
+.menu img {
+    height: 20px;
+    width: 20px;
+    float: left;
+}
+
+.menu ul {
+    float: right;
+}
+
+.menu li {
+    width: auto;
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li * {
+    color: dodgerblue;
+}
+
+.menu span {
+    text-align: center;
+}
+
+.line {
+    width: 100%;
+    height: auto;
+    margin: 0px auto;
+    float: left;
+}
+
+.type {
+    margin: 5px auto;
+    width: 100%;
+    height: 90px;
+    border-radius: 5px 5px 0px 0px;
+    float: left;
+}
+
+.type .type_top {
+    background-color: #fe800f;
+    width: 100%;
+    height: 30px;
+    border: 1px solid gainsboro;
+    border-radius: 5px 5px 0px 0px;
+    font-size: 14.5px;
+    text-align: center;
+}
+
+.type .type_top ul li {
+    list-style-type: none;
+    width: auto;
+    line-height: 30px;
+    display: inline-block;
+
+}
+
+.type .type_top ul li:first-child {
+    font-weight: 600;
+}
+
+.type .type_top ul {
+    display: inline;
+    margin: 0 1%;
+}
+
+.type .type_top a {
+    color: white;
+}
+
+.type .type_bottom {
+    width: 100%;
+    height: 60px;
+    border: 1px solid gainsboro;
+    background-color: #ffffff;
+    float: left;
+}
+
+.type .type_bottom .type_bottom_left {
+    width: 57%;
+    height: 60px;
+    border-right: 1px solid gainsboro;
+    background-color: #f4f4f4;
+    float: left;
+    text-align: center;
+
+}
+
+.type .type_bottom .type_bottom_left select {
+    width: 29%;
+    height: auto;
+    vertical-align: middle;
+    margin-top: 20px;
+}
+
+.type .type_bottom .type_bottom_left input {
+    width: 47%;
+    vertical-align: middle;
+    margin-top: 20px;
+}
+
+.type .type_bottom .type_bottom_left button {
+    width: 15%;
+    vertical-align: middle;
+    margin-top: 20px;
+    background-color: #ffd300;
+
+}
+
+.type .type_bottom .type_bottom_right {
+    width: 42.917%;
+    height: 60px;
+    background-color: #f4f4f4;
+    float: left;
+    text-align: center;
+    line-height: 60px;
+}
+
+.type .type_bottom .type_bottom_right .pro_search {
+    border: 1px solid gainsboro;
+    width: 8%;
+    min-width: 8%;
+    height: 42px;
+    line-height: 1.3;
+    margin: 8px 0 8px 8%;
+    border-radius: 5px;
+    float: left;
+}
+
+.type .type_bottom .type_bottom_right .quick_search {
+    width: 100%;
+    height: auto;
+    margin: 20px 0px;
+    float: left;
+}
+
+.type .type_bottom .type_bottom_right ul li:first-child {
+    font-weight: 600;
+    display: inline;
+}
+
+.type .type_bottom .type_bottom_right ul li {
+    display: inline;
+}
+
+.body {
+    margin: 10px auto;
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+.body .body_left {
+    margin: 0px 1.3% 0px 0px;
+    width: 19.3%;
+    height: auto;
+    float: left;
+}
+
+.body .body_left .body_left_top {
+    height: auto;
+    width: 100%;
+    float: left;
+}
+
+.body .body_left .body_left_top .book_top {
+    background-color: #fe800f;
+    width: 100%;
+    height: 30px;
+    border: 1px solid gainsboro;
+    border-radius: 5px 5px 0px 0px;
+    float: left;
+}
+
+.body .body_left .body_left_top .book_bottom {
+    width: 100%;
+    height: auto;
+    border: 1px solid gainsboro;
+    background-color: #ffffff;
+    float: left;
+}
+
+.body .body_left .body_left_top .book_bottom_ul {
+    float: left;
+    width: 80%;
+    height: auto;
+    padding-left: 10%;
+
+}
+
+.body .body_left .body_left_top .book_bottom ul li {
+    width: auto;
+    line-height: 30px;
+    font-size: larger;
+    font-weight: normal;
+    margin: 25px 0;
+}
+
+.body .body_left .body_left_top .book_bottom_ul li:first-child {
+    line-height: 30px;
+    font-size: larger;
+    font-weight: bold;
+
+}
+
+.body .body_left .body_left_top .book_bottom_ul li img {
+    width: 30px;
+    margin-right: 5%;
+}
+
+.body .body_left .body_left_bottom {
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+.body .body_left .body_left_bottom .brand_top {
+    margin-top: 10px;
+    background-color: #fe800f;
+    width: 100%;
+    height: 30px;
+    border: 1px solid gainsboro;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.body .body_left .body_left_bottom .brand_bottom {
+    width: 100%;
+    height: auto;
+    border: 1px solid gainsboro;
+    background-color: #ffffff;
+    float: left;
+}
+
+.body .body_left .body_left_bottom .brand_bottom ul {
+    float: left;
+    width: 100%;
+}
+
+.body .body_left .body_left_bottom .brand_bottom li {
+    width: auto;
+    font-size: 1.1em;
+    list-style: disc;
+    margin: 25px 0px 25px 21.7%;
+}
+
+.body .body_center {
+    width: 62.18%;
+    height: auto;
+    float: left;
+}
+
+.body .body_center .body_center_top {
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+.body .body_center .book_title {
+    width: 100%;
+    float: left;
+    margin-bottom: 5px;
+}
+
+.body .body_center .book_title_left {
+    float: left;
+    height: auto;
+    color: #c38c2e;
+    font-size: 1.2em;
+    line-height: 30px;
+    font-weight: bolder;
+}
+
+.body .body_center .book_title_left img {
+    width: 30px;
+    margin-right: 5px;
+}
+
+.body .body_center .book_title_right {
+    float: right;
+}
+
+.body .body_center .book_title_right i {
+    color: black;
+    line-height: 30px;
+    font-size: small;
+    font-weight: normal;
+}
+
+.body .body_center .body_center_top .body_center_top_bookcover {
+    width: 98%;
+    height: auto;
+    margin: 10px 1%;
+    float: left;
+}
+
+.body .body_center .body_center_top .body_center_top_bookcover img {
+    width: 30%;
+    height: auto;
+    float: left;
+    min-width: 145px;
+    margin-right: 3%
+}
+
+.book_title_left_info {
+    text-decoration: underline;
+    color: blue;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.body .body_center .body_center_top .body_center_top_bookcover p:nth-child(3) {
+    line-height: 2;
+    font-size: 1.045em;
+    margin-top: 10px;
+}
+
+.body .body_center .body_center_top .body_center_top_bookcover p:nth-child(4) {
+    line-height: 2;
+    font-size: 0.9em;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.break_price {
+    text-decoration: line-through
+}
+
+.body .body_center .body_center_top .body_center_top_bookinfo {
+    width: 67%;
+    float: left;
+    margin: 15px 0;
+}
+
+.body_center_middle {
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+.body .body_center .body_center_middle_container {
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+.body .body_center .body_center_middle_content {
+    width: auto;
+    height: auto;
+    float: left;
+    text-align: center;
+
+}
+
+.body .body_center .body_center_middle_content img {
+    margin: 15px 0 15px 35px;
+}
+
+.body .body_center .body_center_middle_content_text {
+    font-size: 14px;
+    width: auto;
+    height: 60px;
+    margin-bottom: 5px;
+}
+
+.body .body_center .body_center_middle_content_text a {
+    text-decoration: underline;
+    color: blue;
+}
+
+.body .body_center .body_center_middle_content_text p {
+    line-height: 2;
+    font-size: 13px;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.body .body_center .body_center_middle_content_text i {
+    text-decoration: line-through;
+}
+
+.body .body_center .body_center_bottom {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    float: left;
+}
+
+.body .body_center .body_center_bottom_bookcover {
+    width: 100%;
+    float: left;
+    margin: 1%;
+}
+
+.body .body_center .body_center_bottom_bookcover img {
+    width: 27%;
+    min-width: 145px;
+    float: left;
+}
+
+.body .body_center .body_center_bottom_bookcover p {
+    line-height: 2;
+    font-size: 1em;
+    font-weight: 600
+}
+
+.body .body_center .body_center_bottom_bookcover p:nth-child(5) {
+    line-height: 1.5;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.body .body_center .body_center_bottom_bookcover p:last-child {
+    line-height: 2;
+    font-size: 1em;
+    font-weight: lighter;
+    margin: 15px 1% 1% 0;
+}
+
+.body .body_center .body_center_bottom_bookinfo {
+    float: left;
+    width: 72%;
+    margin: 10px 0;
+}
+
+.body .body_right {
+    width: 15.82%;
+    height: auto;
+    float: right;
+}
+
+.body .body_right .body_right_top .userLogin_top {
+    background-color: #fe800f;
+    width: 100%;
+    height: 30px;
+    border: 1px solid gainsboro;
+    border-radius: 5px 5px 0px 0px;
+
+}
+
+.body .body_right .body_right_top .userLogin_bottom {
+    width: 100%;
+    height: auto;
+    border: 1px solid gainsboro;
+    background-color: #ffffff;
+}
+
+.body .body_right .body_right_top .userLogin_bottom .userLogin_bottom_form {
+    font-weight: normal;
+    font-size: large;
+    text-align: left;
+    margin: 30px 9px;
+}
+
+.body .body_right .body_right_top .userLogin_bottom .userLogin_bottom_form input {
+    width: 90%;
+    height: 20px;
+    margin: 8px 0px;
+}
+
+.body .body_right .body_right_bottom .ranking_top {
+    margin-top: 10px;
+    background-color: #fe800f;
+    width: 100%;
+    height: 30px;
+    border: 1px solid gainsboro;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.body .body_right .body_right_bottom .ranking_bottom {
+    width: 100%;
+    height: auto;
+    border: 1px solid gainsboro;
+    background-color: #ffffff;
+    float: left;
+}
+
+.body .body_right .body_right_bottom .ranking_bottom ul {
+    float: left;
+    width: 100%;
+}
+
+.body .body_right .body_right_bottom .ranking_bottom li {
+    font-size: 1em;
+    width: auto;
+    list-style: disc;
+    margin: 20px 0 25px 17%;
+}
+
+.book_list_body_right {
+    margin: 0px auto;
+    width: 79.2%;
+    height: auto;
+    float: right;
+    border: 1px solid darkgray;
+}
+
+.book_list_body_right_top {
+    width: 100%;
+    height: 45px;
+    background: #fff0d9;
+    border-bottom: 1px solid darkgray;
+    line-height: 45px;
+}
+
+.book_list_body_right_bottom {
+    margin: 0px 20px;
+    float: left;
+}
+
+.book_list_body_right_bottom_content {
+    height: auto;
+    width: auto;
+    float: left;
+    padding: 30px 0;
+    border-bottom: 1px solid black;
+}
+
+.book_list_body_right_bottom_content img {
+    width: 20%;
+    height: auto;
+    float: left;
+    min-width: 150px;
+    margin-right: 3%
+}
+
+.body_center_bottom_bookcover {
+    float: left;
+}
+
+.book_list_body_right_bottom_content_right {
+    width: 700px;
+    height: auto;
+    float: left;
+}
+
+.book_list_body_right_bottom_content_right_top {
+    float: left;
+    width: 700px;
+    font-size: larger;
+    padding: 20px 0px;
+    border-bottom: 1px dashed black;
+}
+
+.book_list_body_right_bottom_content_right_middle {
+    float: left;
+}
+
+.book_list_body_right_bottom_content_right_bottom {
+    float: right;
+    width: 75%;
+    text-align: right;
+    font-weight: bolder;
+    margin-top: 15px;
+}
+
+.book_list_body_right_bottom_content_right_bottom_btn {
+    float: right;
+    width: 40%
+}
+
+.book_list_body_right_footer {
+    float: left;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+/*我的地址.css*/
+.my_address_body_right {
+    margin: 0px auto;
+    width: 79%;
+    height: auto;
+    float: right;
+}
+
+.my_address_body_right_top {
+    width: 99%;
+    height: auto;
+    background: #f9fafc;
+    border: 1px solid #ccdbe4;
+    line-height: 40px;
+    padding-left: 1%;
+    float: left;
+}
+
+.my_address_body_right_search {
+    width: 99%;
+    height: auto;
+    background: #ffffe0;
+    border: 1px solid #fae4bf;
+    line-height: 50px;
+    padding-left: 1%;
+    margin-top: 10px;
+    float: left;
+}
+
+.my_address_body_right_search ul {
+    display: inline-block;
+    width: 90%;
+}
+
+.my_address_body_right_search li {
+    display: inline-block;
+    width: 25%;
+}
+
+.my_address_body_right_search li:last-child {
+    display: inline-block;
+    width: 48%;
+}
+
+.my_address_body_right_search input {
+    height: 28px;
+    width: 55%
+}
+
+.my_address_body_right_search .input_last {
+    height: 28px;
+    width: 75%
+}
+
+.my_address_body_right_search button {
+    margin-right: 2%;
+    margin-top: 5px;
+    width: 8%;
+    float: right;
+    font-size: 1.2em;
+    height: 40px
+}
+
+.my_address_body_right_operation {
+    width: 99%;
+    height: auto;
+    background: #f3f3f3;
+    border: 1px solid #e6e6e6;
+    line-height: 40px;
+    margin-top: 10px;
+    float: left;
+    padding-left: 1%
+}
+
+.my_address_body_right_goods_info {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    border: 1px solid #e6e6e6;
+    float: left;
+}
+
+.my_address_body_right_goods_info_top {
+    width: 99%;
+    height: auto;
+    background-color: #f3f3f3;
+    line-height: 40px;
+    float: left;
+    padding-left: 1%;
+
+}
+
+.my_address_body_right_goods_info_bottom {
+    width: 100%;
+    height: auto;
+    background: #ffffff;
+    line-height: 40px;
+    float: left;
+}
+
+.my_address_body_right_goods_info_bottom li {
+    height: auto;
+    border-top: 1px solid #e6e6e6;
+    border-right: 1px solid #e6e6e6;
+    line-height: 80px;
+    float: left;
+    width: 20%;
+    text-align: center
+}
+
+.my_address_body_right_goods_info_bottom li:nth-child(n+3) {
+    width: 39.5%;
+}
+
+.my_address_body_right_goods_info_bottom li:last-child {
+    width: 20.1%;
+    border-right: none;
+}
+
+/*我的订单.css*/
+.my_order_body_right {
+    margin: 0px auto;
+    width: 79%;
+    height: auto;
+    float: right;
+}
+
+.my_order_body_right_top {
+    width: 99%;
+    height: auto;
+    background: #f9fafc;
+    border: 1px solid #ccdbe4;
+    line-height: 40px;
+    padding-left: 1%;
+    float: left;
+}
+
+.my_address_body_right_top {
+    width: 99%;
+    height: auto;
+    background: #f9fafc;
+    border: 1px solid #ccdbe4;
+    line-height: 40px;
+    padding-left: 1%;
+    float: left;
+}
+
+.my_order_body_right_search {
+    width: 99%;
+    height: auto;
+    background: #ffffe0;
+    border: 1px solid #fae4bf;
+    line-height: 50px;
+    padding-left: 1%;
+    margin-top: 10px;
+    float: left;
+}
+
+.my_order_body_right_search ul {
+    display: inline-block;
+    width: 80%;
+}
+
+.my_order_body_right_search li {
+    display: inline-block;
+    width: 100%;
+}
+
+.my_order_body_right_search input {
+    height: 28px;
+    width: 70%
+}
+
+.my_order_body_right_search button {
+    margin-right: 2%;
+    margin-top: 5px;
+    width: 8%;
+    float: right;
+    font-size: 1.2em;
+    height: 40px
+}
+
+.my_order_body_right_operation {
+    width: 99%;
+    height: auto;
+    background: #f3f3f3;
+    border: 1px solid #e6e6e6;
+    line-height: 40px;
+    margin-top: 10px;
+    float: left;
+    padding-left: 1%
+}
+
+.my_order_body_right_goods_info {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    border: 1px solid #e6e6e6;
+    float: left;
+}
+
+.my_order_body_right_goods_info_top {
+    width: 99%;
+    height: auto;
+    background-color: #f3f3f3;
+    line-height: 40px;
+    float: left;
+    padding-left: 1%;
+
+}
+
+.my_order_body_right_goods_info_bottom {
+    width: 100%;
+    height: auto;
+    background: #ffffff;
+    line-height: 40px;
+    float: left;
+}
+
+.my_order_body_right_goods_info_bottom li {
+    height: auto;
+    border-top: 1px solid #e6e6e6;
+    border-right: 1px solid #e6e6e6;
+    line-height: 80px;
+    float: left;
+    width: 10%;
+    text-align: center
+}
+
+.my_order_body_right_goods_info_bottom li:first-child {
+    width: 48.5%;
+    text-align: left;
+    padding-left: 1%;
+}
+
+.my_order_body_right_goods_info_bottom li:last-child {
+    width: 20%;
+    border-right: none;
+}
+
+#myOrder_foot_page_hidden {
+    display: none;
+}
+
+.myOrder_page_text {
+    display: inline-block;
+    width: 5%;
+    font-size: 0.9em;
+    text-align: right;
+}
+
+.my_order_body_right_page {
+    display: inline-block;
+    width: auto;
+    line-height: 28px;
+    background-color: white;
+    border: 1px solid black;
+    padding: 0 1%;
+}
+
+.my_order_body_right_page i {
+    color: blue;
+    font-size: 1.1em;
+
+}
+
+/*密码修改.css*/
+.update_password_body_right_top {
+    width: 99%;
+    height: auto;
+    background: #f9fafc;
+    border: 1px solid #ccdbe4;
+    line-height: 40px;
+    padding-left: 1%;
+    float: left;
+}
+
+.update_password_body_right {
+    margin: 0px auto;
+    width: 79%;
+    height: auto;
+    float: right;
+}
+
+.update_password_body_right_bottom {
+    width: 100%;
+    height: auto;
+    background: #ffffe0;
+    border: 1px solid #fae4bf;
+    line-height: 30px;
+    margin-top: 10px;
+    float: left;
+}
+
+.update_password_body_right_bottom_container {
+    height: auto;
+    width: 50%;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.update_password_body_right_bottom_form {
+    font-weight: normal;
+    font-size: large;
+    text-align: left;
+    float: left;
+    margin: 30px 2%;
+    width: 100%;
+}
+
+.update_password_body_right_bottom_form input {
+    width: 100%;
+    height: 30px;
+    margin: 8px 0;
+}
+
+.update_password_body_right_bottom_form div {
+    text-align: center;
+    margin-top: 8px;
+}
+
+.update_password_body_right_bottom_form button {
+    width: 15%;
+    height: 40px;
+    font-size: 1.2em;
+    margin-right: 5px
+}
+
+.book_detail_body_right_descrip {
+    float: left;
+    margin: 25px 4%;
+}
+
+.book_detail_body_right_descrip i {
+    font-weight: bolder;
+    font-size: 1.3em;
+}
+
+.book_detail_body_right_descrip p {
+    color: #333333;
+    line-height: 2;
+    font-size: 1.1em;
+    margin: 15px 0;
+}
+
+.register_body_top i {
+    font-size: 1.3em;
+    color: red;
+    font-weight: 800
+}
+
+.register_body {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    float: left;
+}
+
+.register_body ul {
+    width: 99%;
+    float: left;
+    border: 1px solid gainsboro;
+    height: auto;
+    line-height: 50px;
+}
+
+.register_body ul:last-child li {
+    width: 100%;
+    height: auto;
+    border-top: none;
+    text-align: center;
+    line-height: 100px
+}
+
+.register_body ul:last-child button {
+    height: 50px;
+    width: 10%;
+    font-size: 1.4em;
+}
+
+.register_body li {
+    float: left;
+    width: 25%;
+    border-right: 1px solid gainsboro
+}
+
+.register_body li:last-child {
+    width: 49.5%;
+    border-right: none;
+}
+
+.register_body input {
+    border: 1px solid darkgray;
+    margin-left: 1%;
+    width: 90%;
+    height: 25px
+}
+
+/*购物车.css*/
+
+.shopping_car_top {
+    float: left;
+}
+
+.shopping_car_top li:first-of-type {
+    display: inline-block;
+    font-size: 1.6em;
+    color: #00a87e;
+    font-weight: bolder;
+    font-family: "幼圆";
+}
+
+.shopping_car_top li:last-of-type {
+    display: inline-block;
+    font-weight: bolder;
+}
+
+.shopping_car_body {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    float: left;
+}
+
+.shopping_car_body_top {
+    background-color: #acdafe;
+    width: 100%;
+    height: 30px;
+    border: 1px solid #acdafe;
+    border-radius: 8px 8px 0 0;
+}
+
+.shopping_car_body_top li {
+    line-height: 30px;
+    width: 26%;
+    text-align: center;
+    font-weight: bold;
+    float: left
+}
+
+.shopping_car_body_top li:first-of-type {
+    width: 15%;
+    margin-left: 1%;
+}
+
+.shopping_car_body_top li:nth-of-type(n+4) {
+    width: 16%;
+}
+
+.shopping_car_body_bottom {
+    width: 100%;
+    height: auto;
+    border: 1px solid #acdafe;
+    float: left;
+}
+
+.shopping_car_body_bottom_content {
+    width: 98%;
+    margin: 15px 1% 0 1%;
+    height: auto;
+    float: left;
+}
+
+.buy_btn {
+    margin-right: 1%;
+    position: relative;
+    top: 10px;
+}
+
+.buy_btn:hover {
+    top: 11px;
+}
+
+.shopping_car_body_bottom_content_info:first-of-type {
+    width: 100%;
+    float: left;
+    height: auto;
+    border: 1px solid #bcbcbc;
+}
+
+.shopping_car_body_bottom_content_info:first-of-type li {
+    float: left;
+    width: 100%;
+    height: auto;
+    line-height: 70px;
+    text-align: right;
+}
+
+.shopping_car_body_bottom_content_info {
+    width: 100%;
+    float: left;
+    line-height: 50px;
+    height: auto;
+    border-left:1px solid #bcbcbc;
+    border-right:1px solid #bcbcbc;
+    border-bottom: 1px solid #bcbcbc;
+}
+
+.shopping_car_body_bottom_content_info:nth-of-type(2n+3){
+    background-color: #ececec
+}
+
+.shopping_car_body_bottom_content_info input:first-of-type{
+    width: 100%;
+}
+
+.shopping_car_body_bottom_content_info li {
+    height: 50px;
+    border-right: 1px solid #bcbcbc;
+    line-height: 50px;
+    float: left;
+    width: 27%;
+    text-align: center
+}
+
+.shopping_car_body_bottom_content_info:nth-of-type(n+2) li:first-of-type {
+    width: 15%;
+}
+
+.shopping_car_body_bottom_content_info li:nth-of-type(n+4){
+    width: 15%;
+}
+
+.shopping_car_body_bottom_content_info:nth-of-type(n+2)  li:last-of-type{
+    border-right: none;
+}
+
+#foot_page_hidden {
+    display: none;
+
+}
+
+#foot_page {
+    margin: 10px auto;
+    width: 100%;
+}
+
+.page_btn {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    margin: 1% 0.8%;
+    text-align: center;
+    background-color: #fe800f;
+}
+
+.page_span {
+    font-size: 1.2em;
+    text-align: center;
+    color: white;
+}
+
+.login_body_top {
+    width: 100%;
+    height: auto;
+    float: left;
+    margin: 5px 0 10px 0;
+}
+
+.login_body_left {
+    width: 62.5%;
+    height: auto;
+    float: left;
+    padding: 3% 0 0 4%;
+}
+
+.login_body_right {
+    width: 33%;
+    height: auto;
+    float: right;
+}
+
+.login_body_right_login {
+    margin: 3%;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 7%;
+    padding: 8% 10%;
+}
+
+.login_title {
+    font-size: 20px;
+    color: red;
+    border-bottom: 1px dashed black;
+    font-weight: bold;
+    padding-bottom: 5px;
+    margin-bottom: 10px
+}
+
+.userLogin_bottom_form button {
+    width: 20%;
+    height: 30px
+}
+
+.userLogin_bottom_form_div1 {
+    text-align: left;
+    display: inline-block;
+    padding: 10px
+}
+
+.userLogin_bottom_form_div1 input {
+    width: 100%;
+    height: 20px;
+    margin: 8px 0
+}
+
+.userLogin_bottom_form_div1 i {
+    font-size: 1.4em;
+    color: black;
+}
+
+.userLogin_bottom_form_div2 {
+    font-size: 1.2em;
+    color: red;
+    border: none;
+    border-bottom: 1px dashed black;
+    padding-bottom: 5px;
+    margin: 10px 0
+}
+
+.userLogin_bottom_form_div3 {
+    text-align: left
+}
+
+.a_chuban .a_jiaqian .a_shijian .a_xiaoshou .a_zhekou {
+    width: 30px;
+    height: 30px;
+}
+
+.a_chuban img {
+    vertical-align: middle;
+    width: 24px;
+    height: 15px;
+    background: url("../images/class/icon_chuban2.gif") no-repeat;
+}
+
+.a_chuban:hover img {
+    background: url("../images/class/icon_chuban_r2.gif") no-repeat;
+}
+
+.a_chuban:visited img {
+    background: url("../images/class/icon_chuban_r2.gif") no-repeat;
+}
+
+.a_jiaqian img {
+    vertical-align: middle;
+    width: 24px;
+    height: 15px;
+    background: url("../images/class/icon_jiaqian.gif") no-repeat;
+}
+
+.a_jiaqian:hover img {
+    background: url("../images/class/icon_jiaqian_r.gif") no-repeat;
+}
+
+.a_shijian img {
+    vertical-align: middle;
+    width: 24px;
+    height: 15px;
+    background: url("../images/class/icon_shijian2.gif") no-repeat;
+}
+
+.a_shijian:hover img {
+    background: url("../images/class/icon_shijian_r2.gif") no-repeat;
+}
+
+.a_xiaoshou img {
+    vertical-align: middle;
+    width: 24px;
+    height: 15px;
+    background: url("../images/class/icon_xiaoshou.gif") no-repeat;
+}
+
+.a_xiaoshou:hover img {
+    background: url("../images/class/icon_xiaoshou_r.gif") no-repeat;
+}
+
+.a_zhekou img {
+    vertical-align: middle;
+    width: 24px;
+    height: 15px;
+    background: url("../images/class/icon_zhekou.gif") no-repeat;
+}
+
+.a_zhekou:hover img {
+    background: url("../images/class/icon_zhekou_r.gif") no-repeat;
+}
+
+.triangle {
+    margin: 19px 5px;
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-left: 10px solid black;
+    border-bottom: 5px solid transparent;
+    float: left;
+}
+
+.body span {
+    font-size: 19px;
+    margin: 15px;
+    vertical-align: middle;
+    color: white;
+}
+
+.foot {
+    margin: 0px auto;
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+.foot .foot_zhsh {
+    margin: 15px;
+    text-align: center;
+}
+
+li, ul, a {
+    border: 0;
+    list-style: none;
+}
+
+a {
+    color: #333333;
+    text-decoration: none;
+    outline: none;
+}
+
+em {
+    font-weight: normal;
+}
+
+@media screen and (min-width: 1077px ) and (max-width: 1200px) {
+    .wrapper {
+        width: 95%;
+        height: 100%;
+    }
+
+    .top {
+        width: 100%;
+        height: auto;
+    }
+
+    nav {
+        margin: 12px 0 0 0px;
+    }
+
+    .line {
+        margin: 0 0.5%;
+        width: 99%;
+    }
+
+    .type .type_bottom .type_bottom_left {
+        width: 56.9%;
+    }
+
+    .type .type_bottom .type_bottom_right {
+        width: 42.917%;
+    }
+
+    .type_top ul li:nth-child(n+7) {
+        display: none;
+    }
+
+    .type_top ul .s3 {
+        display: none;
+    }
+
+    .pro_search {
+        display: none;
+    }
+
+    .quick_search {
+        width: 100%;
+        text-align: center;
+    }
+
+    .body .body_center .body_center_middle_content img {
+        margin: 15px 0 15px 55px;
+    }
+
+    .my_address_body_right_search input {
+        height: 28px;
+        width: 50%
+    }
+
+    .my_address_body_right_search .input_last {
+        height: 28px;
+        width: 70%
+    }
+}
+
+@media screen and (min-width: 1004px ) and (max-width: 1076px) {
+    .wrapper {
+        margin: 0 auto;
+        width: 95%;
+        height: 100%;
+
+    }
+
+    .top {
+        width: 100%;
+        height: auto;
+    }
+
+    .logo {
+        margin: 10px 5px;
+    }
+
+    nav {
+        width: 83%;
+        margin: 5px 1px;
+
+    }
+
+    nav li {
+        width: 33%;
+        font-size: 1.55em;
+    }
+
+    .menu {
+        margin: 0;
+        float: left;
+    }
+
+    .menu img {
+        left: 5px;
+        top: 5px;
+        position: relative;
+    }
+
+    .menu li {
+        width: 116px;
+        font-size: 1.5em;
+    }
+
+    .line {
+        margin: 0 0.5%;
+        width: 99%;
+    }
+
+    .type_top ul li:nth-child(n+7) {
+        display: none;
+    }
+
+    .type_top ul .s3 {
+        display: none;
+    }
+
+    .type .type_bottom .type_bottom_left {
+        width: 56.9%;
+    }
+
+    .type .type_bottom .type_bottom_right {
+        width: 42.917%;
+    }
+
+    .pro_search {
+        display: none;
+    }
+
+    .quick_search {
+        width: 100%;
+        text-align: center;
+    }
+
+    .body .body_right {
+        display: none;
+    }
+
+    .body .body_center {
+        width: 76%;
+    }
+
+    .body .body_left {
+        width: 22%;
+    }
+
+    .book_list_body_right {
+        width: 76%;
+    }
+
+    .my_address_body_right {
+        width: 76%
+    }
+
+    .my_address_body_right_search input {
+        height: 28px;
+        width: 12%
+    }
+
+    .my_address_body_right_search .input_last {
+        height: 28px;
+        width: 28%
+    }
+
+    .my_address_body_right_search input {
+        height: 28px;
+        width: 45%
+    }
+
+    .my_address_body_right_search .input_last {
+        height: 28px;
+        width: 65%
+    }
+
+    .my_address_body_right_goods_info_bottom li {
+        width: 48.85%;
+        text-align: left;
+        border-right: none;
+        padding-left: 1%;
+    }
+
+    .my_address_body_right_goods_info_bottom li:first-child {
+        border-right: 1px solid #e6e6e6;
+    }
+
+    .my_address_body_right_goods_info_bottom li:nth-child(n+3) {
+        width: 99%;
+    }
+
+    .my_order_body_right {
+        width: 76%;
+    }
+
+    .my_order_body_right_goods_info_bottom li {
+        width: 20%;
+    }
+
+    .my_order_body_right_goods_info_bottom li:first-child {
+        width: 99%;
+        text-align: center;
+        font-size: 1.2em;
+        border-right: none;
+        padding-left: 1%;
+    }
+
+    .my_order_body_right_goods_info_bottom li:last-child {
+        width: 39.5%;
+        border-right: none;
+    }
+
+    #myOrder_foot_page_hidden {
+        display: inherit;
+    }
+
+    .myOrder_page_text {
+        display: none;
+
+    }
+
+    #myOrder_foot_page {
+        display: none;
+    }
+
+    .update_password_body_right {
+        width: 76%;
+    }
+
+    .shopping_car_body_bottom_content_info li {
+        width: 79.8%;
+        border-right:none;
+        border-bottom: 1px solid #bcbcbc;
+    }
+
+    .shopping_car_body_bottom_content_info:nth-of-type(n+2) li:first-of-type {
+        width: 20%;
+        border-right: 1px solid #bcbcbc;
+    }
+
+    .shopping_car_body_top{
+        display: none;
+    }
+
+    .shopping_car_body_bottom_content_info li:nth-of-type(n+3){
+        width: 50%;
+        border-right: 1px solid #bcbcbc;
+        border-bottom:none;
+    }
+
+    .shopping_car_body_bottom_content_info li:nth-of-type(n+4){
+        width: 24.85%;
+    }
+}
+
+@media screen and (min-width: 845px) and (max-width: 1003px) {
+    .wrapper {
+        margin: 0 auto;
+        width: 95%;
+        height: 100%;
+
+    }
+
+    .top {
+        width: 100%;
+        height: auto;
+    }
+
+    .logo {
+        margin: 10px 5px;
+    }
+
+    nav {
+        width: 79.8%;
+        margin: 5px 1px;
+
+    }
+
+    nav li {
+        width: 33%;
+        font-size: 1.55em;
+    }
+
+    .menu {
+        margin: 0;
+        float: left;
+    }
+
+    .menu img {
+        left: 5px;
+        top: 5px;
+        position: relative;
+    }
+
+    .menu li {
+        width: 116px;
+        font-size: 1.5em;
+    }
+
+    .line {
+        margin: 0 0.5%;
+        width: 99%;
+    }
+
+    .type_top ul li:nth-child(n+5) {
+        display: none;
+    }
+
+    .type_top ul .s2 {
+        display: none;
+    }
+
+    .type_top ul .s3 {
+        display: none;
+    }
+
+    .type .type_bottom .type_bottom_left {
+        width: 56.9%;
+    }
+
+    .type .type_bottom .type_bottom_right {
+        width: 42.917%;
+    }
+
+    .pro_search {
+        display: none;
+    }
+
+    .quick_search {
+        width: 100%;
+        text-align: center;
+    }
+
+    .body .body_center .body_center_middle_content img {
+        margin: 15px 0 15px 55px;
+    }
+
+    .body .body_right {
+        display: none;
+    }
+
+    .body .body_center {
+        width: 76%;
+    }
+
+    .body .body_left {
+        width: 22%;
+    }
+
+    .book_list_body_right {
+        width: 76%;
+    }
+
+    .my_address_body_right {
+        width: 76%
+    }
+
+    .login_body_left {
+        width: 100%;
+        padding: 3% 0 0 0;
+    }
+
+    .login_body_right {
+        width: 100%;
+        height: auto;
+        float: right;
+    }
+
+    .login_body_right_login {
+        border-radius: 50px;
+        padding: 5%;
+    }
+
+    .userLogin_bottom_form_div1 {
+        width: 60%;
+    }
+
+    .my_address_body_right_search ul {
+        display: block;
+        width: 100%;
+    }
+
+    .my_address_body_right_search li {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .my_address_body_right_search li:last-child {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .my_address_body_right_search input {
+        height: 28px;
+        width: 85%
+    }
+
+    .my_address_body_right_search .input_second {
+        height: 28px;
+        width: 87.3%
+    }
+
+    .my_address_body_right_search .input_last {
+        height: 28px;
+        width: 85%
+    }
+
+    .my_address_body_right_search button {
+        margin: 10px 45%;
+        float: left;
+    }
+
+    .my_address_body_right_goods_info_bottom li {
+        width: 48.8%;
+        text-align: left;
+        padding-left: 1%;
+        border-right: none;
+    }
+
+    .my_address_body_right_goods_info_bottom li:first-child {
+        border-right: 1px solid #e6e6e6;
+    }
+
+    .my_address_body_right_goods_info_bottom li:nth-child(n+3) {
+        width: 99%;
+    }
+
+    .my_order_body_right {
+        width: 76%;
+    }
+
+    .my_order_body_right_goods_info_bottom li {
+        width: 20%;
+    }
+
+    .my_order_body_right_goods_info_bottom li:first-child {
+        width: 99%;
+        text-align: center;
+        font-size: 1.2em;
+        border-right: none;
+        padding-left: 1%;
+    }
+
+    .my_order_body_right_goods_info_bottom li:last-child {
+        width: 39.5%;
+        border-right: none;
+    }
+
+    #myOrder_foot_page_hidden {
+        display: inherit;
+    }
+
+    .myOrder_page_text {
+        display: none;
+
+    }
+
+    #myOrder_foot_page {
+        display: none;
+    }
+
+    .register_body li {
+        width: 68%;
+        border: none;
+    }
+
+    .register_body li:first-of-type {
+        width: 30%;
+        border-right: 1px solid gainsboro;
+    }
+
+    .register_body li:last-child {
+        width: 100%;
+        border-top: 1px solid gainsboro;
+    }
+
+    .register_body input {
+        width: 98%;
+    }
+
+    .update_password_body_right {
+        width: 76%;
+    }
+
+    .update_password_body_right_bottom_form button {
+        width: 18%;
+    }
+
+    .shopping_car_body_bottom_content_info li {
+        width: 79.8%;
+        border-right:none;
+        border-bottom: 1px solid #bcbcbc;
+    }
+
+    .shopping_car_body_top{
+        display: none;
+    }
+
+    .shopping_car_body_bottom_content_info:nth-of-type(n+2) li:first-of-type {
+        width: 20%;
+        border-right: 1px solid #bcbcbc;
+    }
+
+    .shopping_car_body_bottom_content_info li:nth-of-type(n+3){
+        width: 50%;
+        border-right: 1px solid #bcbcbc;
+        border-bottom:none;
+    }
+
+    .shopping_car_body_bottom_content_info li:nth-of-type(n+4){
+        width: 24.85%;
+    }
+}
+
+@media screen and (min-width: 670px) and  (max-width: 844px) {
+    .wrapper {
+        margin: 0 auto;
+        width: 95%;
+        height: 100%;
+
+    }
+
+    .top {
+        width: 100%;
+        height: auto;
+    }
+
+    .logo {
+        margin: 10px 5px;
+    }
+
+    nav {
+        width: 100%;
+        margin: 5px 1px;
+
+    }
+
+    nav li {
+        width: 33%;
+        font-size: 1.55em;
+    }
+
+    .menu {
+        margin: 0;
+        float: right;
+    }
+
+    .menu img {
+        left: 5px;
+        top: 5px;
+        position: relative;
+    }
+
+    .menu li {
+        width: 116px;
+        font-size: 1.5em;
+    }
+
+    .line {
+        margin: 5px 0.5%;
+        width: 99%;
+    }
+
+    .type_top ul li:nth-child(n+5) {
+        display: none;
+    }
+
+    .type_top ul .s3 {
+        display: none;
+    }
+
+    .type_top ul .s2 {
+        display: none;
+    }
+
+    .type .type_bottom .type_bottom_left {
+        width: 56.9%;
+    }
+
+    .type .type_bottom .type_bottom_right {
+        width: 42.917%;
+    }
+
+    .type .type_bottom .type_bottom_right ul li:nth-child(n+5) {
+        display: none;
+    }
+
+    .pro_search {
+        display: none;
+    }
+
+    .quick_search {
+        width: 100%;
+        text-align: center;
+    }
+
+    .body .body_right {
+        display: none;
+    }
+
+    .body .body_center {
+        border: 1px solid gainsboro;
+    }
+
+    .body .body_center {
+        width: 100%;
+    }
+
+    .body .body_left {
+        display: none;
+    }
+
+    .book_list_body_right {
+        width: 100%;
+    }
+
+    .login_body_left {
+        width: 100%;
+        padding: 3% 0 0 0;
+    }
+
+    .login_body_right {
+        width: 100%;
+        height: auto;
+        float: right;
+    }
+
+    .login_body_right_login {
+        border-radius: 50px;
+        padding: 5%;
+    }
+
+    .userLogin_bottom_form_div1 {
+        width: 60%;
+    }
+
+    .my_address_body_right {
+        width: 100%
+    }
+
+    .my_address_body_right_search ul {
+        display: block;
+        width: 100%;
+    }
+
+    .my_address_body_right_search li {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .my_address_body_right_search li:last-child {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .my_address_body_right_search input {
+        height: 28px;
+        width: 85%
+    }
+
+    .my_address_body_right_search .input_second {
+        height: 28px;
+        width: 87.3%
+    }
+
+    .my_address_body_right_search .input_last {
+        height: 28px;
+        width: 85%
+    }
+
+    .my_address_body_right_search button {
+        margin: 10px 45%;
+        float: left;
+    }
+
+    .my_address_body_right_goods_info_bottom li {
+        width: 48.8%;
+        text-align: left;
+        border-right: none;
+        padding-left: 1%;
+    }
+
+    .my_address_body_right_goods_info_bottom li:first-child {
+        border-right: 1px solid #e6e6e6;
+    }
+
+    .my_address_body_right_goods_info_bottom li:nth-child(n+3) {
+        width: 99%;
+    }
+
+    .my_order_body_right {
+        width: 100%;
+    }
+
+    .my_order_body_right_goods_info_bottom li {
+        width: 20%;
+    }
+
+    .my_order_body_right_goods_info_bottom li:first-child {
+        width: 99%;
+        text-align: center;
+        font-size: 1.2em;
+        border-right: none;
+        padding-left: 1%;
+    }
+
+    .my_order_body_right_goods_info_bottom li:last-child {
+        width: 39.5%;
+        border-right: none;
+    }
+
+    #myOrder_foot_page_hidden {
+        display: inherit;
+    }
+
+    .myOrder_page_text {
+        display: none;
+
+    }
+
+    #myOrder_foot_page {
+        display: none;
+    }
+
+    .register_body li {
+        width: 64%;
+        border: none;
+    }
+
+    .register_body li:first-of-type {
+        width: 34%;
+        border-right: 1px solid gainsboro;
+    }
+
+    .register_body li:last-child {
+        width: 100%;
+        border-top: 1px solid gainsboro;
+    }
+
+    .register_body input {
+        width: 98%;
+    }
+
+    .update_password_body_right {
+        width: 100%;
+    }
+
+    .update_password_body_right_bottom_container {
+        width: 85%;
+    }
+
+    .update_password_body_right_bottom_form button {
+        width: 18%;
+    }
+
+    .shopping_car_body_bottom_content_info li {
+        width: 79.8%;
+        border-right:none;
+        border-bottom: 1px solid #bcbcbc;
+    }
+
+    .shopping_car_body_bottom_content_info:nth-of-type(n+2) li:first-of-type {
+        width: 20%;
+        border-right: 1px solid #bcbcbc;
+    }
+
+    .shopping_car_body_top{
+        display: none;
+    }
+
+    .shopping_car_body_bottom_content_info li:nth-of-type(n+3){
+        width: 50%;
+        border-right: 1px solid #bcbcbc;
+        border-bottom:none;
+    }
+
+    .shopping_car_body_bottom_content_info li:nth-of-type(n+4){
+        width: 24.7%;
+    }
+}
+
+@media screen and (min-width: 488px) and (max-width: 669px) {
+    .wrapper {
+        margin: 0 auto;
+        width: 95%;
+        height: 100%;
+
+    }
+
+    .top {
+        width: 100%;
+        height: auto;
+    }
+
+    .logo {
+        margin: 10px 5px;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .hidden_nav {
+        display: block;
+        position: relative;
+        float: right;
+        right: 183px;
+        top: 15px;;
+        min-height: 40px;
+    }
+
+    .hidden_nav ul {
+        width: 178px;
+        padding: 5px 0;
+        position: absolute;
+        border: solid 1px gainsboro;
+        background: #fe800a url(../images/menu.png) no-repeat 11px 22px;
+        border-radius: 5px;
+        box-shadow: 0 1px 2px gainsboro;
+    }
+
+    .hidden_nav li {
+        font-size: 25px;
+        font-weight: bold;
+        display: none; /* hide all  items */
+        margin: 0;
+    }
+
+    .hidden_nav .current {
+        font-size: 25px;
+        display: block;
+        /* show only current
+        item */
+    }
+
+    .hidden_nav a {
+        border-bottom: solid 1px #dbdcdb;
+        width: 110px;
+        color: white;
+        display: block;
+        margin: 5px 0px 10px 38px;
+        text-align: center;
+    }
+
+    .hidden_nav .current a {
+        background: none;
+        border: none;
+        color: #ffffff;
+    }
+
+    /* on nav hover */
+    .hidden_nav ul:hover {
+        background-image: none;
+    }
+
+    .hidden_nav ul:hover li {
+        display: block;
+        margin: 0 0 5px;
+    }
+
+    .hidden_nav ul:hover .current {
+        background: url(../images/check.png) no-repeat 10px 13px;
+    }
+
+    /* right nav */
+    .hidden_nav.right ul {
+        left: auto;
+        right: 0;
+    }
+
+    /* center nav */
+    .hidden_nav.center ul {
+        left: 50%;
+        margin-left: -90px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .line {
+        margin: 5px 0.5%;
+        width: 99%;
+    }
+
+    .type_top ul li:nth-child(n+3) {
+        display: none;
+    }
+
+    .type_top ul .s3 {
+        display: none;
+    }
+
+    .type_top ul .s2 {
+        display: none;
+    }
+
+    .type_top ul .s1 {
+        display: none;
+    }
+
+    .type .type_bottom .type_bottom_left {
+        width: 100%;
+    }
+
+    .type .type_bottom .type_bottom_right {
+        display: none;
+    }
+
+    .type .type_bottom .type_bottom_right ul li:nth-child(n+5) {
+        display: none;
+    }
+
+    .pro_search {
+        display: none;
+    }
+
+    .quick_search {
+        width: 100%;
+        text-align: center;
+    }
+
+    .book_title_right {
+        display: none;
+    }
+
+    .body .body_right {
+        display: none;
+    }
+
+    .body .body_center .body_center_top .body_center_top_bookcover p:nth-child(3) {
+        line-height: 2;
+        font-size: 1.2em;
+        margin-top: 10px;
+    }
+
+    .body .body_center .body_center_bottom_bookcover p:last-child {
+        line-height: 2;
+        font-size: 1em;
+        margin-top: 15px;
+        font-weight: lighter;
+    }
+
+    .body .body_center {
+        width: 100%;
+    }
+
+    .body .body_center {
+        border: 1px solid gainsboro;
+    }
+
+    .body .body_left {
+        display: none;
+    }
+
+    .book_list_body_right {
+        width: 100%;
+    }
+
+    .book_list_body_right_bottom_content_right_bottom {
+        float: right;
+        width: 90%;
+        text-align: right;
+        font-weight: bolder;
+        margin-top: 3px;
+    }
+
+    .body {
+        font-size: 18px;
+    }
+
+    #foot_page_hidden {
+        display: inline-block;
+        margin: 10px auto;
+        width: 100%;
+    }
+
+    .page_text {
+        display: none;
+    }
+
+    #foot_page {
+        display: none;
+    }
+
+    .login_body_left {
+        width: 100%;
+        padding: 3% 0 0 0;
+    }
+
+    .login_body_right {
+        width: 100%;
+        height: auto;
+        float: right;
+    }
+
+    .my_address_body_right {
+        width: 100%
+    }
+
+    .my_address_body_right_search ul {
+        display: block;
+        width: 100%;
+    }
+
+    .my_address_body_right_search li {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .my_address_body_right_search li:last-child {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .my_address_body_right_search input {
+        height: 28px;
+        width: 98%
+    }
+
+    .my_address_body_right_search .input_last {
+        height: 28px;
+        width: 98%
+    }
+
+    .my_address_body_right_search button {
+        margin: 10px 45%;
+        float: left;
+        width: 13%;
+    }
+
+    .my_address_body_right_goods_info_bottom li {
+        width: 99%;
+        text-align: left;
+        border-right: none;
+        padding-left: 1%;
+    }
+
+    .my_address_body_right_goods_info_bottom li:first-child {
+        border-right: 1px solid #e6e6e6;
+    }
+
+    .my_address_body_right_goods_info_bottom li:nth-child(n+3) {
+        width: 99%;
+    }
+
+    .my_order_body_right {
+        width: 100%;
+    }
+
+    .my_order_body_right_search ul {
+        width: 80%;
+    }
+
+    .my_order_body_right_search button {
+        width: 15%;
+    }
+
+    .my_order_body_right_goods_info_bottom li {
+        width: 18%;
+    }
+
+    .my_order_body_right_goods_info_bottom li:first-child {
+        width: 99%;
+        text-align: center;
+        font-size: 1.2em;
+        border-right: none;
+        padding-left: 1%;
+    }
+
+    .my_order_body_right_goods_info_bottom li:last-child {
+        width: 45%;
+        border-right: none;
+    }
+
+    #myOrder_foot_page_hidden {
+        display: inherit;
+        text-align: center;
+    }
+
+    #myOrder_foot_page_hidden input:first-child {
+        display: none;
+    }
+
+    #myOrder_foot_page_hidden a:nth-of-type(-n+2) {
+        display: none;
+    }
+
+    .myOrder_foot_page_hidden_i {
+        display: none;
+    }
+
+    .myOrder_foot_page_hidden_labelOne {
+        display: none;
+    }
+
+    #myOrder_foot_page {
+        display: none;
+    }
+
+    .register_body li {
+        width: 64%;
+        border: none;
+        line-height: 2.5;
+    }
+
+    .register_body li:first-of-type {
+        width: 34%;
+        border-right: 1px solid gainsboro;
+    }
+
+    .register_body li:last-child {
+        width: 100%;
+        border-top: 1px solid gainsboro;
+    }
+
+    .register_body input {
+        width: 98%;
+    }
+
+    .register_body ul:last-child button {
+        width: 12%;
+    }
+
+    .update_password_body_right {
+        width: 100%;
+    }
+
+    .update_password_body_right_bottom_container {
+        width: 85%;
+    }
+
+    .update_password_body_right_bottom_form button {
+        width: 18%;
+    }
+
+    .shopping_car_body_bottom_content_info li {
+        width: 79.8%;
+        border-right:none;
+        border-bottom: 1px solid #bcbcbc;
+        border-top: 1px solid #bcbcbc;
+    }
+
+    .shopping_car_body_bottom_content_info:nth-of-type(n+2) li:first-of-type {
+        width: 19.8%;
+        height: 150px;
+        border-right: 1px solid #bcbcbc;
+        border-bottom:none;
+    }
+
+    .shopping_car_body_bottom_content_info:nth-of-type(n+2) li:first-of-type input{
+        margin-top: 70px;
+    }
+
+    .shopping_car_body_bottom_content_info li:nth-of-type(n+3){
+        width: 79.9%;
+        border-bottom:none;
+    }
+
+    .shopping_car_body_bottom_content_info li:nth-of-type(n+4){
+        width: 39.8%;
+        border-right: 1px solid #bcbcbc;
+
+
+    }
+
+    .shopping_car_body_top{
+        display: none;
+    }
+
+    .shopping_car_body_bottom_content_info:first-of-type li {
+        width: 100%;
+        float: left;
+    }
+}
+
+@media screen and (min-width: 356px) and (max-width: 487px) {
+    .wrapper {
+        margin: 0 auto;
+        width: 95%;
+        height: 100%;
+
+    }
+
+    .top {
+        width: 100%;
+        height: auto;
+    }
+
+    .logo {
+        margin: 10px 5px;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .hidden_nav {
+        display: block;
+        position: relative;
+        float: right;
+        right: 170px;
+        top: 15px;;
+        min-height: 40px;
+    }
+
+    .hidden_nav ul {
+        width: 165px;
+        padding: 5px 0;
+        position: absolute;
+        border: solid 1px gainsboro;
+        background: #fe800a url(../images/menu.png) no-repeat 11px 22px;
+        border-radius: 5px;
+        box-shadow: 0 1px 2px gainsboro;
+    }
+
+    .hidden_nav li {
+        font-size: 25px;
+        font-weight: bold;
+        display: none; /* hide all  items */
+        margin: 0;
+    }
+
+    .hidden_nav .current {
+        font-size: 25px;
+        display: block;
+        /* show only current
+        item */
+    }
+
+    .hidden_nav a {
+        border-bottom: solid 1px #dbdcdb;
+        width: 110px;
+        color: white;
+        display: block;
+        margin: 5px 0px 10px 38px;
+        text-align: center;
+    }
+
+    .hidden_nav .current a {
+        background: none;
+        border: none;
+        color: #ffffff;
+    }
+
+    /* on nav hover */
+    .hidden_nav ul:hover {
+        background-image: none;
+    }
+
+    .hidden_nav ul:hover li {
+        display: block;
+        margin: 0 0 5px;
+    }
+
+    .hidden_nav ul:hover .current {
+        background: url(../images/check.png) no-repeat 10px 13px;
+    }
+
+    /* right nav */
+    .hidden_nav.right ul {
+        left: auto;
+        right: 0;
+    }
+
+    /* center nav */
+    .hidden_nav.center ul {
+        left: 50%;
+        margin-left: -90px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .line {
+        margin: 5px 0.5%;
+        width: 99%;
+    }
+
+    .type_top ul li:nth-child(n+0) {
+        display: none;
+    }
+
+    .type_top ul .s3 {
+        display: none;
+    }
+
+    .type_top ul .s2 {
+        display: none;
+    }
+
+    .type_top ul .s1 {
+        display: none;
+    }
+
+    .type .type_bottom .type_bottom_left {
+        width: 100%;
+    }
+
+    .type .type_bottom .type_bottom_right {
+        display: none;
+    }
+
+    .type .type_bottom .type_bottom_right ul li:nth-child(n+5) {
+        display: none;
+    }
+
+    .pro_search {
+        display: none;
+    }
+
+    .quick_search {
+        width: 100%;
+        text-align: center;
+    }
+
+    .book_title_right {
+        display: none;
+    }
+
+    .body .body_right {
+        display: none;
+    }
+
+    .body .body_center .body_center_top .body_center_top_bookcover p:nth-child(3) {
+        line-height: 2;
+        font-size: 1.2em;
+        margin-top: 10px;
+    }
+
+    .body .body_center .body_center_bottom_bookcover p:last-child {
+        line-height: 2;
+        font-size: 1em;
+        margin-top: 15px;
+        font-weight: lighter;
+    }
+
+    .body .body_center {
+        width: 100%;
+    }
+
+    .body .body_center {
+        border: 1px solid gainsboro;
+    }
+
+    .body .body_left {
+        display: none;
+    }
+
+    .book_list_body_right {
+        width: 100%;
+    }
+
+    .book_list_body_right_bottom_content_right_bottom {
+        float: right;
+        width: 100%;
+        text-align: left;
+        font-weight: bolder;
+        margin-top: 3px;
+    }
+
+    .body {
+        font-size: 18px;
+    }
+
+    #foot_page_hidden {
+        display: inline-block;
+        margin: 10px auto;
+        width: 100%;
+    }
+
+    #foot_page_hidden a:last-child {
+        display: none;
+    }
+
+    #foot_page_hidden a:first-child {
+        display: none;
+    }
+
+    .page_label_one {
+        display: none;
+    }
+
+    .page_text {
+        display: inline-block;
+        width: 5%;
+        font-size: 0.9em;
+        text-align: right;
+    }
+
+    #foot_page {
+        display: none;
+    }
+
+    .login_body_left {
+        width: 100%;
+        padding: 3% 0 0 0;
+    }
+
+    .login_body_right {
+        width: 100%;
+        height: auto;
+        float: right;
+    }
+
+    .my_address_body_right {
+        width: 100%
+    }
+
+    .my_address_body_right_search ul {
+        display: block;
+        width: 100%;
+    }
+
+    .my_address_body_right_search li {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .my_address_body_right_search li:last-child {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .my_address_body_right_search input {
+        height: 28px;
+        width: 98%
+    }
+
+    .my_address_body_right_search .input_last {
+        height: 28px;
+        width: 98%
+    }
+
+    .my_address_body_right_search button {
+        margin: 10px 45%;
+        float: left;
+        width: 15%;
+    }
+
+    .my_address_body_right_goods_info_bottom li {
+        width: 99%;
+        text-align: left;
+        border-right: none;
+        padding-left: 1%;
+    }
+
+    .my_address_body_right_goods_info_bottom li:first-child {
+        border-right: 1px solid #e6e6e6;
+    }
+
+    .my_address_body_right_goods_info_bottom li:nth-child(n+3) {
+        width: 99%;
+    }
+
+    .my_order_body_right {
+        width: 100%;
+    }
+
+    .my_order_body_right_search ul {
+        width: 80%;
+    }
+
+    .my_order_body_right_search li {
+        width: 100%;
+    }
+
+    .my_order_body_right_search input {
+        width: 60%;
+    }
+
+    .my_order_body_right_search button {
+        width: 15%;
+    }
+
+    .my_order_body_right_goods_info_bottom li {
+        width: 33.1%;
+    }
+
+    .my_order_body_right_goods_info_bottom li:first-child {
+        width: 99%;
+        text-align: center;
+        font-size: 1.2em;
+        border-right: none;
+        padding-left: 1%;
+    }
+
+    .my_order_body_right_goods_info_bottom li:nth-of-type(n+4) {
+        border-right: none;
+    }
+
+    .my_order_body_right_goods_info_bottom li:last-child {
+        width: 100%;
+    }
+
+    #myOrder_foot_page_hidden {
+        display: inherit;
+        text-align: center;
+    }
+
+    #myOrder_foot_page_hidden input:first-child {
+        display: none;
+    }
+
+    #myOrder_foot_page_hidden a:nth-of-type(-n+2) {
+        display: none;
+    }
+
+    .myOrder_foot_page_hidden_i {
+        display: none;
+    }
+
+    .myOrder_foot_page_hidden_labelOne {
+        display: none;
+    }
+
+    #myOrder_foot_page {
+        display: none;
+    }
+
+    .register_body li {
+        width: 64%;
+        border: none;
+        line-height: 2.5;
+    }
+
+    .register_body li:first-of-type {
+        width: 34%;
+        border-right: 1px solid gainsboro;
+    }
+
+    .register_body li:last-child {
+        width: 100%;
+        border-top: 1px solid gainsboro;
+    }
+
+    .register_body input {
+        width: 98%;
+    }
+
+    .register_body ul:last-child button {
+        width: 18%;
+    }
+
+    .update_password_body_right {
+        width: 100%;
+    }
+
+    .update_password_body_right_bottom_container {
+        width: 85%;
+    }
+
+    .update_password_body_right_bottom_form button {
+        width: 20%;
+    }
+
+    .shopping_car_body_bottom_content_info li {
+        width: 79.8%;
+        border-right:none;
+        border-bottom: 1px solid #bcbcbc;
+        border-top: 1px solid #bcbcbc;
+    }
+
+    .shopping_car_body_bottom_content_info:nth-of-type(n+2) li:first-of-type {
+        width: 19.8%;
+        height: 150px;
+        border-right: 1px solid #bcbcbc;
+        border-bottom:none;
+    }
+
+    .shopping_car_body_bottom_content_info:nth-of-type(n+2) li:first-of-type input{
+        margin-top: 70px;
+    }
+
+    .shopping_car_body_bottom_content_info li:nth-of-type(n+3){
+        width: 79.9%;
+        border-bottom:none;
+    }
+
+    .shopping_car_body_bottom_content_info li:nth-of-type(n+4){
+        width: 39.8%;
+        border-right: 1px solid #bcbcbc;
+        border-top: 1px solid #bcbcbc;
+
+    }
+
+    .shopping_car_body_top{
+        display: none;
+    }
+
+    .shopping_car_body_bottom_content_info:first-of-type li {
+        width: 100%;
+        float: left;
+    }
+}
+
+@media screen and (max-width: 355px) {
+    .wrapper {
+        margin: 0 auto;
+        width: 95%;
+        height: 100%;
+
+    }
+
+    .top {
+        width: 100%;
+        height: auto;
+    }
+
+    .logo {
+        margin: 10px 5px;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .hidden_nav {
+        display: block;
+        margin-top: 15px;
+        margin-left: 1%;
+        float: left;
+        min-height: 40px;
+    }
+
+    .hidden_nav ul {
+        width: 130px;
+        padding: 5px 0;
+        position: absolute;
+        border: solid 1px gainsboro;
+        background: #fe800a url(../images/menu.png) no-repeat 11px 18px;
+        border-radius: 5px;
+        box-shadow: 0 1px 2px gainsboro;
+    }
+
+    .hidden_nav li {
+        font-size: 15px;
+        font-weight: bold;
+        display: none; /* hide all  items */
+        margin: 0;
+    }
+
+    .hidden_nav .current {
+        font-size: 20px;
+        display: block;
+        /* show only current
+        item */
+    }
+
+    .hidden_nav a {
+        border-bottom: solid 1px #dbdcdb;
+        width: 90px;
+        color: white;
+        display: block;
+        margin: 5px 0px 10px 30px;
+        text-align: center;
+    }
+
+    .hidden_nav .current a {
+        background: none;
+        border: none;
+        color: #ffffff;
+    }
+
+    /* on nav hover */
+    .hidden_nav ul:hover {
+        background-image: none;
+    }
+
+    .hidden_nav ul:hover li {
+        display: block;
+        margin: 0 0 5px;
+    }
+
+    .hidden_nav ul:hover .current {
+        background: url(../images/check.png) no-repeat 10px 10px;
+    }
+
+    /* right nav */
+    .hidden_nav.right ul {
+        left: auto;
+        right: 0;
+    }
+
+    /* center nav */
+    .hidden_nav.center ul {
+        left: 50%;
+        margin-left: -90px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .line {
+        margin: 5px 0.5%;
+        width: 99%;
+    }
+
+    .type_top ul li:nth-child(n+0) {
+        display: none;
+    }
+
+    .type_top ul .s3 {
+        display: none;
+    }
+
+    .type_top ul .s2 {
+        display: none;
+    }
+
+    .type_top ul .s1 {
+        display: none;
+    }
+
+    .type .type_bottom .type_bottom_left {
+        width: 100%;
+    }
+
+    .type .type_bottom .type_bottom_left select {
+        display: none;
+    }
+
+    .type .type_bottom .type_bottom_right {
+        display: none;
+    }
+
+    .type .type_bottom .type_bottom_right ul li:nth-child(n+5) {
+        display: none;
+    }
+
+    .pro_search {
+        display: none;
+    }
+
+    .quick_search {
+        width: 100%;
+        text-align: center;
+    }
+
+    .book_title_right {
+        display: none;
+    }
+
+    .body .body_right {
+        display: none;
+    }
+
+    .body .body_center .body_center_top .body_center_top_bookcover p:nth-child(3) {
+        line-height: 2;
+        font-size: 1.2em;
+        margin-top: 10px;
+    }
+
+    .body .body_center .body_center_bottom_bookcover p:last-child {
+        line-height: 2;
+        font-size: 1em;
+        margin-top: 15px;
+        font-weight: lighter;
+    }
+
+    .body .body_center {
+        width: 100%;
+    }
+
+    .body .body_center {
+        border: 1px solid gainsboro;
+    }
+
+    .body .body_left {
+        display: none;
+    }
+
+    .book_list_body_right {
+        width: 100%;
+    }
+
+    .book_list_body_right_bottom_content_right_bottom {
+        float: right;
+        width: 100%;
+        text-align: left;
+        font-weight: bolder;
+        margin-top: 3px;
+    }
+
+    .body {
+        font-size: 18px;
+    }
+
+    #foot_page_hidden {
+        display: inline-block;
+        margin: 10px auto;
+        width: 100%;
+    }
+
+    #foot_page_hidden a:last-child {
+        display: none;
+    }
+
+    #foot_page_hidden a:first-child {
+        display: none;
+    }
+
+    .page_label_one {
+        display: none;
+    }
+
+    .page_text {
+        display: inline-block;
+        width: 5%;
+        font-size: 0.9em;
+        text-align: right;
+    }
+
+    #foot_page {
+        display: none;
+    }
+
+    .login_body_left {
+        width: 100%;
+        padding: 3% 0 0 0;
+    }
+
+    .login_body_right {
+        width: 100%;
+        height: auto;
+        float: right;
+    }
+
+    .my_address_body_right {
+        width: 100%
+    }
+
+    .my_address_body_right_search ul {
+        display: block;
+        width: 100%;
+    }
+
+    .my_address_body_right_search li {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .my_address_body_right_search li:last-child {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .my_address_body_right_search input {
+        height: 28px;
+        width: 98%
+    }
+
+    .my_address_body_right_search .input_last {
+        height: 28px;
+        width: 98%
+    }
+
+    .my_address_body_right_search button {
+        margin: 10px 45%;
+        float: left;
+        width: 20%;
+    }
+
+    .my_address_body_right_goods_info_bottom li {
+        width: 99%;
+        text-align: left;
+        border-right: none;
+        padding-left: 1%;
+    }
+
+    .my_address_body_right_goods_info_bottom li:first-child {
+        border-right: 1px solid #e6e6e6;
+    }
+
+    .my_address_body_right_goods_info_bottom li:nth-child(n+3) {
+        width: 99%;
+    }
+
+    .my_order_body_right {
+        width: 100%;
+    }
+
+    .my_order_body_right_search ul {
+        width: 80%;
+    }
+
+    .my_order_body_right_search li {
+        width: 100%;
+    }
+
+    .my_order_body_right_search input {
+        width: 55%;
+    }
+
+    .my_order_body_right_search button {
+        width: 15%;
+        font-size: 1em;
+    }
+
+    .my_order_body_right_goods_info_bottom li {
+        width: 33.1%;
+    }
+
+    .my_order_body_right_goods_info_bottom li:first-child {
+        width: 99%;
+        text-align: center;
+        font-size: 1.2em;
+        border-right: none;
+        padding-left: 1%;
+    }
+
+    .my_order_body_right_goods_info_bottom li:nth-of-type(n+4) {
+        border-right: none;
+    }
+
+    .my_order_body_right_goods_info_bottom li:last-child {
+        width: 100%;
+    }
+
+    #myOrder_foot_page_hidden {
+        display: inherit;
+        text-align: center;
+    }
+
+    #myOrder_foot_page_hidden input:first-child {
+        display: none;
+    }
+
+    #myOrder_foot_page_hidden a:nth-of-type(-n+2) {
+        display: none;
+    }
+
+    .myOrder_foot_page_hidden_i {
+        display: none;
+    }
+
+    .myOrder_foot_page_hidden_labelOne {
+        display: none;
+    }
+
+    #myOrder_foot_page {
+        display: none;
+    }
+
+    .register_body li {
+        width: 64%;
+        border: none;
+        line-height: 2;
+    }
+
+    .register_body li:first-of-type {
+        width: 34%;
+        border-right: 1px solid gainsboro;
+    }
+
+    .register_body li:last-child {
+        width: 100%;
+        border-top: 1px solid gainsboro;
+    }
+
+    .register_body input {
+        width: 98%;
+    }
+
+    .register_body ul:last-child button {
+        width: 20%;
+    }
+
+    .update_password_body_right {
+        width: 100%;
+    }
+
+    .update_password_body_right_bottom_container {
+        width: 85%;
+    }
+
+    .update_password_body_right_bottom_form button {
+        width: 23%;
+    }
+
+    .shopping_car_body_bottom_content_info li {
+        width: 79.8%;
+        border-right:none;
+        border-bottom: 1px solid #bcbcbc;
+        border-top: 1px solid #bcbcbc;
+    }
+
+    .shopping_car_body_bottom_content_info:nth-of-type(n+2) li:first-of-type {
+        width: 19.8%;
+        height: 150px;
+        border-right: 1px solid #bcbcbc;
+        border-bottom:none;
+    }
+
+    .shopping_car_body_bottom_content_info:nth-of-type(n+2) li:first-of-type input{
+        margin-top: 70px;
+    }
+
+    .shopping_car_body_bottom_content_info li:nth-of-type(n+3){
+        width: 79.8%;
+        border-bottom:none;
+    }
+
+    .shopping_car_body_bottom_content_info li:nth-of-type(n+4){
+        width: 39.7%;
+        border-right: 1px solid #bcbcbc;
+        border-top: 1px solid #bcbcbc;
+
+    }
+
+    .shopping_car_body_top{
+        display: none;
+    }
+
+    .shopping_car_body_bottom_content_info:first-of-type li {
+        width: 100%;
+        float: left;
+    }
+}
